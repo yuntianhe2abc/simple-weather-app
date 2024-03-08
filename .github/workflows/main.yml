@@ -5,7 +5,7 @@ on:
 jobs:
   build:
 
-    runs-on: subuntu-latest
+    runs-on: ubuntu-latest
     container: node:16
     steps:
       - run: node --version
